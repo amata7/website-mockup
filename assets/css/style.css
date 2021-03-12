@@ -8,35 +8,37 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 
-.header div ul {
+header nav ul {
     list-style-type: none;
+    position: relative;
+    left: 20px;
 }
 
-.header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -47,7 +49,7 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .hero {
@@ -89,16 +91,19 @@ p {
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
+    font-size: 14px;
 }
 
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
+    font-size: 14px;
 }
 
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
+    font-size: 14px;
 }
 
 .benefit-lead h3 {
@@ -135,7 +140,7 @@ p {
 }
 
 .search-engine-optimization {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -150,6 +155,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    
 }
 
 .social-media-marketing {
@@ -175,17 +181,17 @@ p {
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 26px;
 }
 
 .online-reputation-management h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 26px;
 }
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 26px;
 }
 
 .footer {
